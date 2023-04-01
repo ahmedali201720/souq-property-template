@@ -1,993 +1,2114 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="en-US">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>سوق العقارات | الموقع الأول فى مصر للاعلان العقارى</title>
+    <!-- Favicons Icons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/images/favicons/icon180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/images/favicons/icon32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/images/favicons/icon16.png"
+    />
+    <meta
+      name="description"
+      content="سوق العقارات | الموقع الأول فى مصر للاعلان العقارى"
+    />
 
-<head>
-    <!-- Document Meta
-    ============================================= -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!--IE Compatibility Meta-->
-    <meta name="author" content="zytheme" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="description" content="Real Estate html5 template">
-    <link href="assets/images/favicon/favicon.png" rel="icon">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
 
-    <!-- Fonts
-    ============================================= -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i%7CPoppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-    <!-- Stylesheets
-    ============================================= -->
-    <link href="assets/css/external.css" rel="stylesheet">
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
-    <!--[if lt IE 9]>
-      <script src="assets/js/html5shiv.js"></script>
-      <script src="assets/js/respond.min.js"></script>
-    <![endif]-->
+    <link rel="stylesheet" href="assets/vendors/animate/animate.min.css" />
+    <link rel="stylesheet" href="assets/vendors/animate/custom-animate.css" />
+    <link
+      rel="stylesheet"
+      href="assets/vendors/bootstrap/css/bootstrap.rtl.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/vendors/bootstrap-select/css/bootstrap-select.min.css"
+    />
+    <link rel="stylesheet" href="assets/vendors/bxslider/jquery.bxslider.css" />
+    <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css"
+    />
+    <link rel="stylesheet" href="assets/vendors/jquery-ui/jquery-ui.css" />
+    <link rel="stylesheet" href="assets/vendors/nice-select/nice-select.css" />
+    <link
+      rel="stylesheet"
+      href="assets/vendors/nouislider/nouislider.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/vendors/nouislider/nouislider.pips.css"
+    />
+    <link rel="stylesheet" href="assets/vendors/odometer/odometer.min.css" />
+    <link
+      rel="stylesheet"
+      href="assets/vendors/owl-carousel/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/vendors/owl-carousel/owl.theme.default.min.css"
+    />
+    <link rel="stylesheet" href="assets/vendors/swiper/swiper.min.css" />
+    <link rel="stylesheet" href="assets/vendors/timepicker/timePicker.css" />
+    <link
+      rel="stylesheet"
+      href="assets/vendors/tiny-slider/tiny-slider.min.css"
+    />
+    <link rel="stylesheet" href="assets/vendors/vegas/vegas.min.css" />
+    <link rel="stylesheet" href="assets/vendors/thm-icons/style.css" />
+    <!-- Module css -->
+    <link rel="stylesheet" href="assets/css/module-css/01-header-section.css" />
+    <link rel="stylesheet" href="assets/css/module-css/02-banner-section.css" />
+    <link rel="stylesheet" href="assets/css/module-css/03-about-section.css" />
+    <link
+      rel="stylesheet"
+      href="assets/css/module-css/04-fact-counter-section.css"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/css/module-css/05-testimonial-section.css"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/css/module-css/06-partner-section.css"
+    />
+    <link rel="stylesheet" href="assets/css/module-css/07-footer-section.css" />
+    <link rel="stylesheet" href="assets/css/module-css/08-blog-section.css" />
 
-    <!-- Document Title
-    ============================================= -->
-    <title>LandPro | Real Estate Html5 Template</title>
-</head>
-
-<body>
-    <!-- Document Wrapper
-	============================================= -->
-    <div id="wrapper" class="wrapper clearfix">
-        <header id="navbar-spy" class="header header-1 header-transparent header-fixed">
-            <nav id="primary-menu" class="navbar navbar-fixed-top">
-                <div class="container-fluid">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				</button>
-                        <a class="logo" href="index.html">
-					<img class="logo-light" src="assets/images/logo/logo-light.png" alt="Land Logo">
-					<img class="logo-dark" src="assets/images/logo/logo-dark.png" alt="Land Logo">
-				</a>
-                    </div>
-
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse pull-right" id="navbar-collapse-1">
-                        <ul class="nav navbar-nav nav-pos-center navbar-left">
-                            <!-- Home Menu -->
-                            <li class="has-dropdown active">
-                                <a href="#" data-toggle="dropdown" class="dropdown-toggle menu-item">home</a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="index.html">home search</a></li>
-                                    <li><a href="home-map.html">home map</a></li>
-                                    <li><a href="home-property.html">home property</a></li>
-                                    <li><a href="home-splash.html">home splash</a></li>
-                                </ul>
-                            </li>
-                            <!-- li end -->
-
-                            <!-- Pages Menu-->
-                            <li class="has-dropdown">
-                                <a href="#" data-toggle="dropdown" class="dropdown-toggle menu-item">Pages</a>
-                                <ul class="dropdown-menu">
-                                    <li class="dropdown-submenu">
-                                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">agents</a>
-                                        <ul class="dropdown-menu">
-                                            <li>
-                                                <a href="agents.html">All Agents</a>
-                                            </li>
-                                            <li>
-                                                <a href="agent-profile.html">agent profile</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown-submenu">
-                                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">agencies</a>
-                                        <ul class="dropdown-menu">
-                                            <li>
-                                                <a href="agency-list.html">all agencies</a>
-                                            </li>
-                                            <li>
-                                                <a href="agency-profile.html">agency profile</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown-submenu">
-                                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">blog</a>
-                                        <ul class="dropdown-menu">
-                                            <li>
-                                                <a href="blog.html">blog Grid</a>
-                                            </li>
-                                            <li>
-                                                <a href="blog-sidebar-right.html">blog Grid Right </a>
-                                            </li>
-                                            <li>
-                                                <a href="blog-sidebar-left.html">blog Grid Left </a>
-                                            </li>
-                                            <li>
-                                                <a href="blog-single.html">blog single</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="page-about.html">page about</a></li>
-                                    <li><a href="page-contact.html">page contact</a></li>
-                                    <li><a href="page-faq.html">page FAQ</a></li>
-                                    <li><a href="page-404.html">page 404</a></li>
-                                </ul>
-                            </li>
-                            <!-- li end -->
-
-                            <!-- Profile Menu-->
-                            <li class="has-dropdown">
-                                <a href="#" data-toggle="dropdown" class="dropdown-toggle menu-item">Profile</a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="user-profile.html">user profile</a></li>
-                                    <li><a href="social-profile.html">social profile</a></li>
-                                    <li><a href="my-properties.html">my properties</a></li>
-                                    <li><a href="favourite-properties.html">favourite properties</a></li>
-                                    <li><a href="add-property.html">add property</a></li>
-                                </ul>
-                            </li>
-                            <!-- li end -->
-
-                            <!-- Properties Menu-->
-                            <li class="has-dropdown">
-                                <a href="#" data-toggle="dropdown" class="dropdown-toggle menu-item">Properties</a>
-                                <ul class="dropdown-menu">
-                                    <li class="dropdown-submenu">
-                                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Properties grid</a>
-                                        <ul class="dropdown-menu">
-                                            <li>
-                                                <a href="properties-grid.html">properties grid</a>
-                                            </li>
-                                            <li>
-                                                <a href="properties-grid-split.html">properties grid split</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown-submenu">
-                                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">properties list</a>
-                                        <ul class="dropdown-menu">
-                                            <li>
-                                                <a href="properties-list.html">properties list</a>
-                                            </li>
-                                            <li>
-                                                <a href="properties-list-split.html">properties list split</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown-submenu">
-                                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">properties single</a>
-                                        <ul class="dropdown-menu">
-                                            <li>
-                                                <a href="property-single-gallery.html">single gallery</a>
-                                            </li>
-                                            <li>
-                                                <a href="property-single-slider.html">single slider</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                            <!-- li end -->
-
-                            <li><a href="page-contact.html">contact</a></li>
-                        </ul>
-                        <!-- Module Signup  -->
-                        <div class="module module-login pull-left">
-                            <a class="btn-popup" data-toggle="modal" data-target="#signupModule">Login</a>
-                            <div class="modal register-login-modal fade" tabindex="-1" role="dialog" id="signupModule">
-                                <div class="modal-dialog modal-lg" role="document">
-                                    <div class="modal-content">
-                                        <div class="modal-body">
-                                            <div class="row">
-
-                                                <!-- Nav tabs -->
-                                                <ul class="nav nav-tabs">
-                                                    <li class="active"><a href="#login" data-toggle="tab">login</a>
-                                                    </li>
-                                                    <li><a href="#signup" data-toggle="tab">signup</a>
-                                                    </li>
-                                                </ul>
-                                                <!-- Tab panes -->
-                                                <div class="tab-content">
-                                                    <div class="tab-pane fade in active" id="login">
-                                                        <div class="signup-form-container text-center">
-                                                            <form class="mb-0">
-                                                                <a href="#" class="btn btn--facebook btn--block"><i class="fa fa-facebook-square"></i>Login with Facebook</a>
-                                                                <div class="or-text">
-                                                                    <span>or</span>
-                                                                </div>
-                                                                <div class="form-group">
-                                                                    <input type="email" class="form-control" name="login-email" id="login-email" placeholder="Email Address">
-                                                                </div>
-                                                                <!-- .form-group end -->
-                                                                <div class="form-group">
-                                                                    <input type="password" class="form-control" name="login-password" id="login-password" placeholder="Password">
-                                                                </div>
-                                                                <!-- .form-group end -->
-                                                                <div class="input-checkbox">
-                                                                    <label class="label-checkbox">
-                                <span>Remember Me</span>
-                                <input type="checkbox">
-                                <span class="check-indicator"></span>
-                            </label>
-                                                                </div>
-                                                                <input type="submit" class="btn btn--primary btn--block" value="Sign In">
-                                                                <a href="#" class="forget-password">Forget your password?</a>
-                                                            </form>
-                                                            <!-- form  end -->
-                                                        </div>
-                                                        <!-- .signup-form end -->
-                                                    </div>
-                                                    <div class="tab-pane" id="signup">
-                                                        <form class="mb-0">
-                                                            <a href="#" class="btn btn--facebook btn--block"><i class="fa fa-facebook-square"></i>Register with Facebook</a>
-                                                            <div class="or-text">
-                                                                <span>or</span>
-                                                            </div>
-                                                            <div class="form-group">
-                                                                <input type="text" class="form-control" name="full-name" id="full-name" placeholder="Full Name">
-                                                            </div>
-                                                            <!-- .form-group end -->
-                                                            <div class="form-group">
-                                                                <input type="email" class="form-control" name="register-email" id="register-email" placeholder="Email Address">
-                                                            </div>
-                                                            <!-- .form-group end -->
-                                                            <div class="form-group">
-                                                                <input type="password" class="form-control" name="register-password" id="register-password" placeholder="Password">
-                                                            </div>
-                                                            <!-- .form-group end -->
-                                                            <div class="input-checkbox">
-                                                                <label class="label-checkbox">
-                                <span>I agree with all <a href="#">Terms & Conditions</a></span>
-                                <input type="checkbox">
-                                <span class="check-indicator"></span>
-                            </label>
-                                                            </div>
-                                                            <input type="submit" class="btn btn--primary btn--block" value="Register">
-                                                        </form>
-                                                        <!-- form  end -->
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- /.modal-content -->
-                                    </div>
-                                    <!-- /.modal-dialog -->
-                                </div>
-                                <!-- /.modal -->
-                            </div>
-                        </div>
-                        <!-- Module Consultation  -->
-                        <div class="module module-property pull-left">
-                            <a href="add-property.html" target="_blank" class="btn"><i class="fa fa-plus"></i> add property</a>
-                        </div>
-                    </div>
-                    <!-- /.navbar-collapse -->
-                </div>
-                <!-- /.container-fluid -->
-            </nav>
-
-        </header>
-        <!-- Hero Search
-============================================= -->
-        <section id="heroSearch" class="hero-search mtop-100 pt-0 pb-0">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12">
-                        <div class="slider--content">
-                            <div class="text-center">
-                                <h1>Find Your Favorite Property</h1>
-                            </div>
-                            <form class="mb-0">
-                                <div class="form-box search-properties">
-                                    <div class="row">
-                                        <div class="col-xs-12 col-sm-6 col-md-3">
-                                            <div class="form-group">
-                                                <div class="select--box">
-                                                    <i class="fa fa-angle-down"></i>
-                                                    <select name="select-location" id="select-location">
-                                        <option>Any Location</option>
-                                        <option>Alabama</option>
-                                        <option>Alaska</option>
-                                        <option>California</option>
-                                        <option>Florida</option>
-                                        <option>Mississippi</option>
-                                        <option>Oregon</option>
-                                    </select>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- .col-md-3 end -->
-                                        <div class="col-xs-12 col-sm-6 col-md-3">
-                                            <div class="form-group">
-                                                <div class="select--box">
-                                                    <i class="fa fa-angle-down"></i>
-                                                    <select name="select-type" id="select-type">
-                                        <option>Any Type</option>
-                                        <option>Apartment</option>
-                                        <option>House</option>
-                                        <option>Office</option>
-                                        <option>Villa</option>
-                                    </select>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- .col-md-3 end -->
-                                        <div class="col-xs-12 col-sm-6 col-md-3">
-                                            <div class="form-group">
-                                                <div class="select--box">
-                                                    <i class="fa fa-angle-down"></i>
-                                                    <select name="select-status" id="select-status">
-                                        <option>Any Status</option>
-                                        <option>For Rent</option>
-                                        <option>For Sale</option>
-                                    </select>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- .col-md-3 end -->
-                                        <div class="col-xs-12 col-sm-6 col-md-3">
-                                            <input type="submit" value="Search" name="submit" class="btn btn--primary btn--block">
-                                        </div>
-                                        <!-- .col-md-3 end -->
-                                        <div class="col-xs-12 col-sm-6 col-md-3 option-hide">
-                                            <div class="form-group">
-                                                <div class="select--box">
-                                                    <i class="fa fa-angle-down"></i>
-                                                    <select name="select-beds" id="select-beds">
-                                        <option>Beds</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
-                                        <option>5</option>
-                                    </select>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- .col-md-3 end -->
-                                        <div class="col-xs-12 col-sm-6 col-md-3 option-hide">
-                                            <div class="form-group">
-                                                <div class="select--box">
-                                                    <i class="fa fa-angle-down"></i>
-                                                    <select name="select-baths" id="select-baths">
-                                        <option>Baths</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
-                                        <option>5</option>
-                                    </select>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- .col-md-3 end -->
-                                        <div class="col-xs-12 col-sm-6 col-md-6 option-hide">
-                                            <div class="filter mb-30">
-                                                <p>
-                                                    <label for="amount">Price Range: </label>
-                                                    <input id="amount" type="text" class="amount" readonly>
-                                                </p>
-                                                <div class="slider-range"></div>
-                                            </div>
-                                        </div>
-                                        <!-- .col-md-3 end -->
-                                        <div class="col-xs-12 col-sm-12 col-md-12">
-                                            <a href="#" class="less--options">More options</a>
-                                        </div>
-                                    </div>
-                                    <!-- .row end -->
-                                </div>
-                                <!-- .form-box end -->
-                            </form>
-                        </div>
-                    </div>
-                    <!-- .container  end -->
-                </div>
-                <!-- .slider-text end -->
+    <!-- Template styles -->
+    <link
+      href="assets/vendors/color-switch/theme-color.css"
+      id="jssDefault"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+  </head>
+  <body>
+    <!-- Start preloader -->
+    <div class="loader-wrap">
+      <div class="preloader">
+        <div class="preloader-close">x</div>
+        <div id="handle-preloader" class="handle-preloader">
+          <div class="animation-preloader">
+            <div class="spinner"></div>
+            <div class="txt-loading" dir="rtl">
+              <span data-text-preloader="س" class="letters-loading"> س </span>
+              <span data-text-preloader="و" class="letters-loading"> و </span>
+              <span data-text-preloader="و" class="letters-loading"> و </span>
+              <span data-text-preloader="ق" class="letters-loading"> ق </span>
             </div>
-            <div class="carousel slider-navs" data-slide="1" data-slide-rs="1" data-autoplay="true" data-nav="true" data-dots="false" data-space="0" data-loop="true" data-speed="800">
-                <!-- Slide #1 -->
-                <div class="slide--item bg-overlay bg-overlay-dark3">
-                    <div class="bg-section">
-                        <img src="assets/images/slider/slide-bg/3.jpg" alt="background">
-                    </div>
-                </div>
-                <!-- .slide-item end -->
-                <!-- Slide #2 -->
-                <div class="slide--item bg-overlay bg-overlay-dark3">
-                    <div class="bg-section">
-                        <img src="assets/images/slider/slide-bg/1.jpg" alt="background">
-                    </div>
-                </div>
-                <!-- .slide-item end -->
-                <!-- Slide #3 -->
-                <div class="slide--item bg-overlay bg-overlay-dark3">
-                    <div class="bg-section">
-                        <img src="assets/images/slider/slide-bg/3.jpg" alt="background">
-                    </div>
-                </div>
-                <!-- .slide-item end -->
-            </div>
-        </section>
-        <!-- #property-single-slider end -->
-
-        <!-- properties-carousel
-============================================= -->
-        <section id="properties-carousel" class="properties-carousel pt-90 pb-90">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12">
-                        <div class="heading heading-2 text-center mb-70">
-                            <h2 class="heading--title">Latest Properties</h2>
-                            <p class="heading--desc">Duis aute irure dolor in reprehed in volupted velit esse dolore</p>
-                        </div>
-                        <!-- .heading-title end -->
-                    </div>
-                    <!-- .col-md-12 end -->
-                </div>
-                <!-- .row end -->
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12">
-                        <div class="carousel carousel-dots" data-slide="3" data-slide-rs="2" data-autoplay="true" data-nav="false" data-dots="true" data-space="25" data-loop="true" data-speed="800">
-                            <!-- .property-item #1 -->
-                            <div class="property-item">
-                                <div class="property--img">
-                                    <a href="#">
-                            <img src="assets/images/properties/3.jpg" alt="property image" class="img-responsive">
-                            <span class="property--status">For Sale</span>
-</a>
-                                </div>
-                                <div class="property--content">
-                                    <div class="property--info">
-                                        <h5 class="property--title"><a href="#">Apartment in Long St.</a></h5>
-                                        <p class="property--location">34 Long St, Jersey City, NJ 07305</p>
-                                        <p class="property--price">$70,000</p>
-                                    </div>
-                                    <!-- .property-info end -->
-                                    <div class="property--features">
-                                        <ul class="list-unstyled mb-0">
-                                            <li><span class="feature">Beds:</span><span class="feature-num">2</span></li>
-                                            <li><span class="feature">Baths:</span><span class="feature-num">1</span></li>
-                                            <li><span class="feature">Area:</span><span class="feature-num">200 sq ft</span></li>
-                                        </ul>
-                                    </div>
-                                    <!-- .property-features end -->
-                                </div>
-                            </div>
-                            <!-- .property item end -->
-
-                            <!-- .property-item #2 -->
-                            <div class="property-item">
-                                <div class="property--img">
-                                    <a href="#">
-                            <img src="assets/images/properties/11.jpg" alt="property image" class="img-responsive">
-                            <span class="property--status">For Sale</span>
-							</a>
-                                </div>
-                                <div class="property--content">
-                                    <div class="property--info">
-                                        <h5 class="property--title">Villa in Chicago IL</h5>
-                                        <p class="property--location">1445 N State Pkwy, Chicago, IL 60610</p>
-                                        <p class="property--price">$235,000</p>
-                                    </div>
-                                    <!-- .property-info end -->
-                                    <div class="property--features">
-                                        <ul class="list-unstyled mb-0">
-                                            <li><span class="feature">Beds:</span><span class="feature-num">3</span></li>
-                                            <li><span class="feature">Baths:</span><span class="feature-num">2</span></li>
-                                            <li><span class="feature">Area:</span><span class="feature-num">1120 sq ft</span></li>
-                                        </ul>
-                                    </div>
-                                    <!-- .property-features end -->
-                                </div>
-                            </div>
-                            <!-- .property item end -->
-
-                            <!-- .property-item #3 -->
-                            <div class="property-item">
-                                <div class="property--img">
-                                    <a href="#">
-                            <img src="assets/images/properties/5.jpg" alt="property image" class="img-responsive">
-                            <span class="property--status">For Rent</span>
-							</a>
-                                </div>
-                                <div class="property--content">
-                                    <div class="property--info">
-                                        <h5 class="property--title">2750 House in Urban St.</h5>
-                                        <p class="property--location">2750 Urban Street Dr, Anderson, IN 46011</p>
-                                        <p class="property--price">$1,550<span class="time">month</span></p>
-                                    </div>
-                                    <!-- .property-info end -->
-                                    <div class="property--features">
-                                        <ul class="list-unstyled mb-0">
-                                            <li><span class="feature">Beds:</span><span class="feature-num">2</span></li>
-                                            <li><span class="feature">Baths:</span><span class="feature-num">2</span></li>
-                                            <li><span class="feature">Area:</span><span class="feature-num">1390 sq ft</span></li>
-                                        </ul>
-                                    </div>
-                                    <!-- .property-features end -->
-                                </div>
-                            </div>
-                            <!-- .property item end -->
-
-                            <!-- .property-item #4 -->
-                            <div class="property-item">
-                                <div class="property--img">
-                                    <a href="#">
-                            <img src="assets/images/properties/4.jpg" alt="property image" class="img-responsive">
-                            <span class="property--status">For Sale</span>
-							</a>
-                                </div>
-                                <div class="property--content">
-                                    <div class="property--info">
-                                        <h5 class="property--title"><a href="#">House in Kent Street</a></h5>
-                                        <p class="property--location">127 Kent Street, Sydney, NSW 2000</p>
-                                        <p class="property--price">$130,000</p>
-                                    </div>
-                                    <!-- .property-info end -->
-                                    <div class="property--features">
-                                        <ul class="list-unstyled mb-0">
-                                            <li><span class="feature">Beds:</span><span class="feature-num">2</span></li>
-                                            <li><span class="feature">Baths:</span><span class="feature-num">2</span></li>
-                                            <li><span class="feature">Area:</span><span class="feature-num">587 sq ft</span></li>
-                                        </ul>
-                                    </div>
-                                    <!-- .property-features end -->
-                                </div>
-                            </div>
-                            <!-- .property item end -->
-
-                            <!-- .property-item #5 -->
-                            <div class="property-item">
-                                <div class="property--img">
-                                    <a href="#">
-                            <img src="assets/images/properties/2.jpg" alt="property image" class="img-responsive">
-                            <span class="property--status">For Rent</span>
-</a>
-                                </div>
-                                <div class="property--content">
-                                    <div class="property--info">
-                                        <h5 class="property--title"><a href="#">Villa in Oglesby Ave</a></h5>
-                                        <p class="property--location">1035 Oglesby Ave, Chicago, IL 60617</p>
-                                        <p class="property--price">$130,000<span class="time">month</span></p>
-                                    </div>
-                                    <!-- .property-info end -->
-                                    <div class="property--features">
-                                        <ul class="list-unstyled mb-0">
-                                            <li><span class="feature">Beds:</span><span class="feature-num">4</span></li>
-                                            <li><span class="feature">Baths:</span><span class="feature-num">3</span></li>
-                                            <li><span class="feature">Area:</span><span class="feature-num">800 sq ft</span></li>
-                                        </ul>
-                                    </div>
-                                    <!-- .property-features end -->
-                                </div>
-                            </div>
-                            <!-- .property item end -->
-
-                            <!-- .property-item #6 -->
-                            <div class="property-item">
-                                <div class="property--img">
-                                    <a href="#">
-                            <img src="assets/images/properties/3.jpg" alt="property image" class="img-responsive">
-                            <span class="property--status">For Sale</span>
-</a>
-                                </div>
-                                <div class="property--content">
-                                    <div class="property--info">
-                                        <h5 class="property--title"><a href="#">Apartment in Long St.</a></h5>
-                                        <p class="property--location">34 Long St, Jersey City, NJ 07305</p>
-                                        <p class="property--price">$70,000</p>
-                                    </div>
-                                    <!-- .property-info end -->
-                                    <div class="property--features">
-                                        <ul class="list-unstyled mb-0">
-                                            <li><span class="feature">Beds:</span><span class="feature-num">2</span></li>
-                                            <li><span class="feature">Baths:</span><span class="feature-num">1</span></li>
-                                            <li><span class="feature">Area:</span><span class="feature-num">200 sq ft</span></li>
-                                        </ul>
-                                    </div>
-                                    <!-- .property-features end -->
-                                </div>
-                            </div>
-                            <!-- .property item end -->
-
-                        </div>
-                        <!-- .carousel end -->
-                    </div>
-                    <!-- .col-md-12 -->
-                </div>
-                <!-- .row -->
-            </div>
-            <!-- .container -->
-        </section>
-        <!-- #properties-carousel  end  -->
-
-        <!-- Feature
-============================================= -->
-        <section id="feature" class="feature feature-1 text-center bg-white pb-90">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12">
-                        <div class="heading heading-2 text-center mb-70">
-                            <h2 class="heading--title">Simple Steps</h2>
-                            <p class="heading--desc">Duis aute irure dolor in reprehed in volupted velit esse dolore</p>
-                        </div>
-                        <!-- .heading-title end -->
-                    </div>
-                    <!-- .col-md-12 end -->
-                </div>
-                <!-- .row end -->
-                <div class="row">
-                    <!-- feature Panel #1 -->
-                    <div class="col-xs-12 col-sm-4 col-md-4">
-                        <div class="feature-panel">
-                            <div class="feature--icon">
-                                <img src="assets/images/features/icons/5.png" alt="icon img">
-                            </div>
-                            <div class="feature--content">
-                                <h3>Search For Real Estates</h3>
-                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eule pariate.</p>
-                            </div>
-                        </div>
-                        <!-- .feature-panel end -->
-                    </div>
-                    <!-- .col-md-4 end -->
-                    <!-- feature Panel #2 -->
-                    <div class="col-xs-12 col-sm-4 col-md-4">
-                        <div class="feature-panel">
-                            <div class="feature--icon">
-                                <img src="assets/images/features/icons/6.png" alt="icon img">
-                            </div>
-                            <div class="feature--content">
-                                <h3>Select Your Favorite</h3>
-                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eule pariate.</p>
-                            </div>
-                        </div>
-                        <!-- .feature-panel end -->
-                    </div>
-                    <!-- .col-md-4 end -->
-                    <!-- feature Panel #3 -->
-                    <div class="col-xs-12 col-sm-4 col-md-4">
-                        <div class="feature-panel">
-                            <div class="feature--icon">
-                                <img src="assets/images/features/icons/7.png" alt="icon img">
-                            </div>
-                            <div class="feature--content">
-                                <h3>Take Your Key</h3>
-                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eule pariate.</p>
-                            </div>
-                        </div>
-                        <!-- .feature-panel end -->
-                    </div>
-                    <!-- .col-md-4 end -->
-                </div>
-                <!-- .row end -->
-            </div>
-            <!-- .container end -->
-        </section>
-        <!-- .feature end -->
-        <!-- city-property
-============================================= -->
-        <section id="city-property" class="city-property text-center pb-70">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12">
-                        <div class="heading heading-2 text-center mb-70">
-                            <h2 class="heading--title">Property By City</h2>
-                            <p class="heading--desc">Duis aute irure dolor in reprehed in volupted velit esse dolore</p>
-                        </div>
-                        <!-- .heading-title end -->
-                    </div>
-                    <!-- .col-md-12 end -->
-                </div>
-                <!-- .row end -->
-                <div class="row">
-                    <!-- City #1 -->
-                    <div class="col-xs-12 col-sm-8 col-md-8">
-                        <div class="property-city-item">
-                            <div class="property--city-img">
-                                <a href="#">
-                        <img src="assets/images/properties/city/1.jpg" alt="city" class="img-responsive">
-                        <div class="property--city-overlay">
-                            <div class="property--item-content">
-                                <h5 class="property--title">New York</h5>
-                                <p class="property--numbers">16 Properties</p>
-                            </div>
-                        </div>
-						</a>
-                            </div>
-                            <!-- .property-city-img end -->
-                        </div>
-                        <!-- . property-city-item end -->
-                    </div>
-                    <!-- .col-md-8 end -->
-                    <!-- City #2 -->
-                    <div class="col-xs-12 col-sm-4 col-md-4">
-                        <div class="property-city-item">
-                            <div class="property--city-img">
-                                <a href="#">
-                        <img src="assets/images/properties/city/2.jpg" alt="city" class="img-responsive">
-                        <div class="property--city-overlay">
-                            <div class="property--item-content">
-                                <h5 class="property--title">Chicago</h5>
-                                <p class="property--numbers">14 Properties</p>
-                            </div>
-                        </div>
-						</a>
-                            </div>
-                            <!-- .property-city-img end -->
-                        </div>
-                        <!-- . property-city-item end -->
-                    </div>
-                    <!-- .col-md-8 end -->
-                </div>
-                <!-- .row end -->
-                <div class="row">
-
-                    <!-- City #3 -->
-                    <div class="col-xs-12 col-sm-4 col-md-4">
-                        <div class="property-city-item">
-                            <div class="property--city-img">
-                                <a href="#">
-                        <img src="assets/images/properties/city/3.jpg" alt="city" class="img-responsive">
-                        <div class="property--city-overlay">
-                            <div class="property--item-content">
-                                <h5 class="property--title">Manhatten</h5>
-                                <p class="property--numbers">18 Properties</p>
-                            </div>
-                        </div>
-						</a>
-                            </div>
-                            <!-- .property-city-img end -->
-                        </div>
-                        <!-- . property-city-item end -->
-                    </div>
-                    <!-- .col-md-8 end -->
-                    <!-- City #4 -->
-                    <div class="col-xs-12 col-sm-8 col-md-8">
-                        <div class="property-city-item">
-                            <div class="property--city-img">
-                                <a href="#">
-                        <img src="assets/images/properties/city/4.jpg" alt="city" class="img-responsive">
-                        <div class="property--city-overlay">
-                            <div class="property--item-content">
-                                <h5 class="property--title">Los Angeles</h5>
-                                <p class="property--numbers">10 Properties</p>
-                            </div>
-                        </div>
-						</a>
-                            </div>
-                            <!-- .property-city-img end -->
-                        </div>
-                        <!-- . property-city-item end -->
-                    </div>
-                    <!-- .col-md-8 end -->
-                </div>
-                <!-- .row end -->
-            </div>
-            <!-- .container end -->
-        </section>
-        <!-- .city-property end -->
-
-        <!-- agents
-============================================= -->
-        <section id="agents" class="agents bg-white">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12">
-                        <div class="heading heading-2 text-center mb-70">
-                            <h2 class="heading--title">Trusted Agents</h2>
-                            <p class="heading--desc">Duis aute irure dolor in reprehed in volupted velit esse dolore</p>
-                        </div>
-                        <!-- .heading end -->
-                    </div>
-                    <!-- .col-md-12 end -->
-                </div>
-                <!-- .row end -->
-                <div class="row">
-                    <!-- agent #1 -->
-                    <div class="col-xs-12 col-sm-4 col-md-4">
-                        <div class="agent">
-                            <div class="agent--img">
-                                <img src="assets/images/agents/grid/1.png" alt="agent" />
-                                <div class="agent--details">
-                                    <p>Lorem ipsum dolor sit amet, consece adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore.</p>
-                                    <div class="agent--social-links">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-dribbble"></i></a>
-                                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- .agent-img end -->
-                            <div class="agent--info">
-                                <h5 class="agent--title">Steve Martin</h5>
-                                <h6 class="agent--position">Buying Agent</h6>
-                            </div>
-                            <!-- .agent-info end -->
-                        </div>
-                        <!-- .agent end -->
-                    </div>
-                    <!-- .col-md-4 end -->
-                    <!-- agent #2 -->
-                    <div class="col-xs-12 col-sm-4 col-md-4">
-                        <div class="agent">
-                            <div class="agent--img">
-                                <img src="assets/images/agents/grid/2.png" alt="agent" />
-                                <div class="agent--details">
-                                    <p>Lorem ipsum dolor sit amet, consece adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore.</p>
-                                    <div class="agent--social-links">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-dribbble"></i></a>
-                                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- .agent-img end -->
-                            <div class="agent--info">
-                                <h5 class="agent--title">Mark Smith</h5>
-                                <h6 class="agent--position">Selling Agent</h6>
-                            </div>
-                            <!-- .agent-info end -->
-                        </div>
-                        <!-- .agent end -->
-                    </div>
-                    <!-- .col-md-4 end -->
-                    <!-- agent #3 -->
-                    <div class="col-xs-12 col-sm-4 col-md-4">
-                        <div class="agent">
-                            <div class="agent--img">
-                                <img src="assets/images/agents/grid/3.png" alt="agent" />
-                                <div class="agent--details">
-                                    <p>Lorem ipsum dolor sit amet, consece adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore.</p>
-                                    <div class="agent--social-links">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-dribbble"></i></a>
-                                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- .agent-img end -->
-                            <div class="agent--info">
-                                <h5 class="agent--title">Ryan Printz</h5>
-                                <h6 class="agent--position">Real Estate Broker</h6>
-                            </div>
-                            <!-- .agent-info end -->
-                        </div>
-                        <!-- .agent end -->
-                    </div>
-                    <!-- .col-md-4 end -->
-
-                </div>
-            </div>
-        </section>
-        <!-- #agents end  -->
-
-        <!-- cta #1
-============================================= -->
-        <section id="cta" class="cta cta-1 text-center bg-overlay bg-overlay-dark pt-90">
-            <div class="bg-section"><img src="assets/images/cta/bg-1.jpg" alt="Background"></div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3">
-                        <h3>Join our professional team & agents to start selling your house</h3>
-                        <a href="#" class="btn btn--primary">Contact</a>
-                    </div>
-                    <!-- .col-md-6 -->
-                </div>
-                <!-- .row -->
-            </div>
-            <!-- .container -->
-        </section>
-        <!-- #cta1 end -->
-
-        <!-- Footer #1
-============================================= -->
-        <footer id="footer" class="footer footer-1 bg-white">
-            <!-- Widget Section
-	============================================= -->
-            <div class="footer-widget">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-6 col-md-3 widget--about">
-                            <div class="widget--content">
-                                <div class="footer--logo">
-                                    <img src="assets/images/logo/logo-dark2.png" alt="logo">
-                                </div>
-                                <p>86 Petersham town, New South Wales Wardll Street, Australia PA 6550</p>
-                                <div class="footer--contact">
-                                    <ul class="list-unstyled mb-0">
-                                        <li>+61 525 240 310</li>
-                                        <li><a href="mailto:contact@land.com">contact@land.com</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- .col-md-2 end -->
-                        <div class="col-xs-12 col-sm-3 col-md-2 col-md-offset-1 widget--links">
-                            <div class="widget--title">
-                                <h5>Company</h5>
-                            </div>
-                            <div class="widget--content">
-                                <ul class="list-unstyled mb-0">
-                                    <li><a href="#">About us</a></li>
-                                    <li><a href="#">Career</a></li>
-                                    <li><a href="#">Services</a></li>
-                                    <li><a href="#">Properties</a></li>
-                                    <li><a href="#">Contact</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!-- .col-md-2 end -->
-                        <div class="col-xs-12 col-sm-3 col-md-2 widget--links">
-                            <div class="widget--title">
-                                <h5>Learn More</h5>
-                            </div>
-                            <div class="widget--content">
-                                <ul class="list-unstyled mb-0">
-                                    <li><a href="#">Privacy</a></li>
-                                    <li><a href="#">Terms & Conditions</a></li>
-                                    <li><a href="#">Account</a></li>
-                                    <li><a href="#">FAQ</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!-- .col-md-2 end -->
-                        <div class="col-xs-12 col-sm-12 col-md-4 widget--newsletter">
-                            <div class="widget--title">
-                                <h5>newsletter</h5>
-                            </div>
-                            <div class="widget--content">
-                                <form class="newsletter--form mb-40">
-                                    <input type="email" class="form-control" id="newsletter-email" placeholder="Email Address">
-                                    <button type="submit"><i class="fa fa-arrow-right"></i></button>
-                                </form>
-                                <h6>Get In Touch</h6>
-                                <div class="social-icons">
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-vimeo"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- .col-md-4 end -->
-
-                    </div>
-                </div>
-                <!-- .container end -->
-            </div>
-            <!-- .footer-widget end -->
-
-            <!-- Copyrights
-	============================================= -->
-            <div class="footer--copyright text-center">
-                <div class="container">
-                    <div class="row footer--bar">
-                        <div class="col-xs-12 col-sm-12 col-md-12">
-                            <span>© 2018 <a href="http://themeforest.net/user/zytheme">Zytheme</a>, All Rights Reserved.</span>
-                        </div>
-
-                    </div>
-                    <!-- .row end -->
-                </div>
-                <!-- .container end -->
-            </div>
-            <!-- .footer-copyright end -->
-        </footer>
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- #wrapper end -->
+    <!-- End preloader -->
+    <div class="page-wrapper">
+      <header class="main-header main-header-style1">
+        <nav class="main-menu main-menu-style1">
+          <div class="main-menu__wrapper clearfix">
+            <div class="container">
+              <div class="main-menu__wrapper-inner">
+                <div class="logo-box-style1">
+                  <a href="index.html">
+                    <img
+                      width="120"
+                      src="assets/images/resources/logo-trans-2.png"
+                      alt="سوق للخدمات العقارية"
+                    />
+                  </a>
+                </div>
 
-    <!-- Footer Scripts
-============================================= -->
-    <script src="assets/js/jquery-2.2.4.min.js"></script>
-    <script src="assets/js/plugins.js"></script>
-    <script src="assets/js/functions.js"></script>
-</body>
+                <div class="phone-number-box-style1">
+                  <i class="fa fa-phone-square fs-24 me-2 text-secondary"></i>
+                  <a dir="ltr" href="tel:123456789">+201010668909</a>
+                </div>
 
+                <div class="main-menu-box">
+                  <a href="#" class="mobile-nav__toggler">
+                    <i class="icon-menu"></i>
+                  </a>
+
+                  <ul class="main-menu__list">
+                    <li class="dropdown">
+                      <a href="#">ابحث عن</a>
+                      <ul>
+                        <li><a href="#">عقارات</a></li>
+                        <li>
+                          <a href="#">كومبوندات</a>
+                        </li>
+                        <li>
+                          <a href="#">معارض عقارية</a>
+                        </li>
+                        <li>
+                          <a href="#">تمويل عقارى</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="dropdown">
+                      <a href="javascript:void(0);">اعرف</a>
+                      <ul>
+                        <li><a href="#">تقييم عقارى</a></li>
+                        <li><a href="#">أسعار العقارات</a></li>
+                        <li><a href="#">اسأل أهل المنطقة</a></li>
+                        <li><a href="#">الوسطاء المميزون</a></li>
+                        <li><a href="#">دليل المعارض</a></li>
+                        <li><a href="#">المؤشر العقارى</a></li>
+                        <li><a href="#">نصائح عقارية</a></li>
+                        <li><a href="#">أبحاث و دراسات</a></li>
+                        <li><a href="#">اعرف أكثر</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown">
+                      <a href="javascript:void(0);">إعلان</a>
+                      <ul>
+                        <li>
+                          <a href="#">اعلن عن عقارك</a>
+                        </li>
+                        <li>
+                          <a href="#">اعلن عن عقارات شركتك</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="dropdown">
+                      <a href="javascript:void(0);">المقالات</a>
+                      <ul>
+                        <li><a href="#">المقالات</a></li>
+                        <li><a href="#">الأخبار</a></li>
+                        <li><a href="#">الأحداث القادمة</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">تواصل معنا</a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="main-menu-style1-right">
+                  <div class="sign-in-box-style1 ms-0">
+                    <span class="icon-user"></span>
+                    <a href="#">سجل دخولك</a>
+                  </div>
+                  <div class="header-btn-style1 ms-4">
+                    <a href="add-property.html">أعلن عن عقارك</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <div class="stricky-header stricked-menu main-menu">
+        <div class="sticky-header__content"></div>
+        <!-- /.sticky-header__content -->
+      </div>
+      <!-- /.stricky-header -->
+
+      <!--Main Slider Start-->
+      <section class="main-slider main-slider-style1">
+        <div
+          class="swiper-container thm-swiper__slider"
+          data-swiper-options='{"slidesPerView": 1, "loop": true,
+                "effect": "fade",
+                "pagination": {
+                "el": "#main-slider-pagination",
+                "type": "bullets",
+                "clickable": true
+                },
+                "navigation": {
+                "nextEl": "#main-slider__swiper-button-next",
+                "prevEl": "#main-slider__swiper-button-prev"
+                },
+                "autoplay": {
+                "delay": 5000
+                }}'
+        >
+          <div class="swiper-wrapper">
+            <!--Start Single Swiper Slide-->
+            <div class="swiper-slide">
+              <div
+                class="image-layer"
+                style="
+                  background-image: url(assets/images/slides/slide-v1-2.jpg);
+                "
+              ></div>
+              <div class="container">
+                <div class="row">
+                  <div class="col-xl-12">
+                    <div class="main-slider-content">
+                      <div class="main-slider-content__inner">
+                        <div class="big-title">
+                          <h2>
+                            237,906 عقار
+                            <br />
+                            <span>للبيع و الإيجار</span>
+                          </h2>
+                        </div>
+                        <div class="text">
+                          <p>
+                            مع سووق للخدمات العقارية ، هتلاقى موجود
+                            <br />
+                            طلبك بسهولة فى قاعدة كبيرة من العقارات المطروحة
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--End Single Swiper Slide-->
+            <!--Start Single Swiper Slide-->
+            <div class="swiper-slide">
+              <div
+                class="image-layer"
+                style="
+                  background-image: url(assets/images/slides/slide-v1-2.jpg);
+                "
+              ></div>
+              <div class="container">
+                <div class="row">
+                  <div class="col-xl-12">
+                    <div class="main-slider-content">
+                      <div class="main-slider-content__inner">
+                        <div class="big-title">
+                          <h2>
+                            <h2>
+                              أعلن عن عقاراتك
+                              <br />
+                              <span>للبيع و الإيجار</span>
+                            </h2>
+                          </h2>
+                        </div>
+                        <div class="text">
+                          <p>
+                            مع سووق للخدمات العقارية ، هتلاقى موجود
+                            <br />
+                            طلبك بسهولة فى قاعدة كبيرة من العقارات المطروحة
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--End Single Swiper Slide-->
+            <!--Start Single Swiper Slide-->
+            <div class="swiper-slide">
+              <div
+                class="image-layer"
+                style="
+                  background-image: url(assets/images/slides/slide-v1-2.jpg);
+                "
+              ></div>
+              <div class="container">
+                <div class="row">
+                  <div class="col-xl-12">
+                    <div class="main-slider-content">
+                      <div class="main-slider-content__inner">
+                        <div class="big-title">
+                          <h2>
+                            <h2>
+                              قيم العقارات المطروحة
+                              <br />
+                              <span>واسأل اهل المطقة</span>
+                            </h2>
+                          </h2>
+                        </div>
+                        <div class="text">
+                          <p>
+                            مع سووق للخدمات العقارية ، هتلاقى موجود
+                            <br />
+                            طلبك بسهولة فى قاعدة كبيرة من العقارات المطروحة
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--End Single Swiper Slide-->
+          </div>
+
+          <!-- If we need navigation buttons -->
+          <div class="main-slider__nav">
+            <div
+              class="swiper-button-prev"
+              id="main-slider__swiper-button-next"
+            >
+              <i class="icon-left-arrow"></i>
+            </div>
+            <div
+              class="swiper-button-next"
+              id="main-slider__swiper-button-prev"
+            >
+              <i class="icon-right-arrow-1"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Main Slider End-->
+
+      <!--Start Property Serach Form Area-->
+      <section class="property-search-form-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-12">
+              <div class="search-form-tab-box">
+                <div class="search-form-tab__button">
+                  <ul class="tabs-button-box clearfix">
+                    <li data-tab="#sell" class="tab-btn-item">
+                      <h3>بيع</h3>
+                    </li>
+                    <li data-tab="#rent" class="tab-btn-item active-btn-item">
+                      <h3>إيجار</h3>
+                    </li>
+                    <li data-tab="#buy" class="tab-btn-item">
+                      <h3>شراء</h3>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="search-form-tabs-content-box-outer">
+                  <div class="tabs-content-box">
+                    <!--Tab-->
+                    <div class="tab-content-box-item" id="sell">
+                      <div class="search-form-tab-content-box-item clearfix">
+                        <form
+                          action="index.html"
+                          method="post"
+                          class="search-form clearfix"
+                        >
+                          <ul class="clearfix">
+                            <li>
+                              <div class="form-group clearfix">
+                                <label>النوع</label>
+                                <div class="field-input">
+                                  <div class="select-box">
+                                    <select class="wide">
+                                      <option data-display="نوع العقار">
+                                        نوع العقار
+                                      </option>
+                                      <option value="1">شقق مفروشة</option>
+                                      <option value="2">شقق تشطيب كامل</option>
+                                      <option value="3">شقق نصف تشطيب</option>
+                                      <option value="4">شقق عالمحارة</option>
+                                      <option value="4">كومباوند</option>
+                                    </select>
+                                  </div>
+                                </div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="form-group clearfix">
+                                <label>الموقع / المدينة</label>
+                                <div class="field-input">
+                                  <div class="select-box">
+                                    <select class="wide">
+                                      <option data-display="اختر الموقع">
+                                        اختر الموقع
+                                      </option>
+                                      <option value="1">القاهرة</option>
+                                      <option value="2">الجيزة</option>
+                                      <option value="3">الإسكندرية</option>
+                                      <option value="4">
+                                        العاصمة الادارية
+                                      </option>
+                                    </select>
+                                  </div>
+                                </div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="form-group clearfix">
+                                <label>عدد الغرف</label>
+                                <div class="field-input">
+                                  <div class="select-box">
+                                    <select class="wide">
+                                      <option data-display="غير محدد">
+                                        غير محدد
+                                      </option>
+                                      <option value="1">4 نوم / 2 حمام</option>
+                                    </select>
+                                  </div>
+                                </div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="form-group clearfix">
+                                <label>كلمة مفتاحية</label>
+                                <div class="field-input">
+                                  <input
+                                    placeholder="ادخل كلمة بحثية"
+                                    type="text"
+                                  />
+                                </div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="btn-box">
+                                <button
+                                  class="btn-one"
+                                  type="submit"
+                                  data-loading-text="جارى البحث ...."
+                                >
+                                  <span class="txt">
+                                    <i class="fa fa-search me-2"></i>
+                                    ابحث
+                                  </span>
+                                </button>
+                              </div>
+                            </li>
+                          </ul>
+                        </form>
+                      </div>
+                    </div>
+
+                    <!--Tab-->
+                    <div
+                      class="tab-content-box-item tab-content-box-item-active"
+                      id="rent"
+                    >
+                      <div class="search-form-tab-content-box-item clearfix">
+                        <form
+                          action="index.html"
+                          method="post"
+                          class="search-form clearfix"
+                        >
+                          <ul class="clearfix">
+                            <li>
+                              <div class="form-group clearfix">
+                                <label>النوع</label>
+                                <div class="field-input">
+                                  <div class="select-box">
+                                    <select class="wide">
+                                      <option data-display="نوع العقار">
+                                        نوع العقار
+                                      </option>
+                                      <option value="1">شقق مفروشة</option>
+                                      <option value="2">شقق تشطيب كامل</option>
+                                      <option value="3">شقق نصف تشطيب</option>
+                                      <option value="4">شقق عالمحارة</option>
+                                      <option value="4">كومباوند</option>
+                                    </select>
+                                  </div>
+                                </div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="form-group clearfix">
+                                <label>الموقع / المدينة</label>
+                                <div class="field-input">
+                                  <div class="select-box">
+                                    <select class="wide">
+                                      <option data-display="اختر الموقع">
+                                        اختر الموقع
+                                      </option>
+                                      <option value="1">القاهرة</option>
+                                      <option value="2">الجيزة</option>
+                                      <option value="3">الإسكندرية</option>
+                                      <option value="4">
+                                        العاصمة الادارية
+                                      </option>
+                                    </select>
+                                  </div>
+                                </div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="form-group clearfix">
+                                <label>عدد الغرف</label>
+                                <div class="field-input">
+                                  <div class="select-box">
+                                    <select class="wide">
+                                      <option data-display="غير محدد">
+                                        غير محدد
+                                      </option>
+                                      <option value="1">4 نوم / 2 حمام</option>
+                                    </select>
+                                  </div>
+                                </div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="form-group clearfix">
+                                <label>كلمة مفتاحية</label>
+                                <div class="field-input">
+                                  <input
+                                    placeholder="ادخل كلمة بحثية"
+                                    type="text"
+                                  />
+                                </div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="btn-box">
+                                <button
+                                  class="btn-one"
+                                  type="submit"
+                                  data-loading-text="جارى البحث ...."
+                                >
+                                  <span class="txt">
+                                    <i class="fa fa-search me-2"></i>
+                                    ابحث
+                                  </span>
+                                </button>
+                              </div>
+                            </li>
+                          </ul>
+                        </form>
+                      </div>
+                    </div>
+
+                    <!--Tab-->
+                    <div class="tab-content-box-item" id="buy">
+                      <div class="search-form-tab-content-box-item clearfix">
+                        <form
+                          action="index.html"
+                          method="post"
+                          class="search-form clearfix"
+                        >
+                          <ul class="clearfix">
+                            <li>
+                              <div class="form-group clearfix">
+                                <label>النوع</label>
+                                <div class="field-input">
+                                  <div class="select-box">
+                                    <select class="wide">
+                                      <option data-display="نوع العقار">
+                                        نوع العقار
+                                      </option>
+                                      <option value="1">شقق مفروشة</option>
+                                      <option value="2">شقق تشطيب كامل</option>
+                                      <option value="3">شقق نصف تشطيب</option>
+                                      <option value="4">شقق عالمحارة</option>
+                                      <option value="4">كومباوند</option>
+                                    </select>
+                                  </div>
+                                </div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="form-group clearfix">
+                                <label>الموقع / المدينة</label>
+                                <div class="field-input">
+                                  <div class="select-box">
+                                    <select class="wide">
+                                      <option data-display="اختر الموقع">
+                                        اختر الموقع
+                                      </option>
+                                      <option value="1">القاهرة</option>
+                                      <option value="2">الجيزة</option>
+                                      <option value="3">الإسكندرية</option>
+                                      <option value="4">
+                                        العاصمة الادارية
+                                      </option>
+                                    </select>
+                                  </div>
+                                </div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="form-group clearfix">
+                                <label>عدد الغرف</label>
+                                <div class="field-input">
+                                  <div class="select-box">
+                                    <select class="wide">
+                                      <option data-display="غير محدد">
+                                        غير محدد
+                                      </option>
+                                      <option value="1">4 نوم / 2 حمام</option>
+                                    </select>
+                                  </div>
+                                </div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="form-group clearfix">
+                                <label>كلمة مفتاحية</label>
+                                <div class="field-input">
+                                  <input
+                                    placeholder="ادخل كلمة بحثية"
+                                    type="text"
+                                  />
+                                </div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="btn-box">
+                                <button
+                                  class="btn-one"
+                                  type="submit"
+                                  data-loading-text="جارى البحث ...."
+                                >
+                                  <span class="txt">
+                                    <i class="fa fa-search me-2"></i>
+                                    ابحث
+                                  </span>
+                                </button>
+                              </div>
+                            </li>
+                          </ul>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--End Property Serach Form Area-->
+
+      <!--Start About Style1 Area-->
+      <section class="about-style1-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-7">
+              <div class="about-style1-img-box">
+                <div class="shape1 float-bob">
+                  <img src="assets/images/shapes/shape-1.png" alt="" />
+                </div>
+                <div class="shape2 float-bob-y">
+                  <img src="assets/images/shapes/shape-1.png" alt="" />
+                </div>
+                <div class="round-box rotate-me"></div>
+                <div class="experience-box">
+                  <div class="counting">
+                    <h2 dir="ltr" class="odometer" data-count="10">00</h2>
+                    <span class="icon-plus-sign plus"></span>
+                  </div>
+                  <h4>سنوات من الخبرة</h4>
+                </div>
+                <div class="about-style1-img-box__top">
+                  <img
+                    src="assets/images/about/about-style1-img-1.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="about-style1-img-box__bottom">
+                  <div class="about-style1-img-box__bottom--inner">
+                    <img
+                      src="assets/images/about/about-style1-img-2.jpg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-5">
+              <div class="about-style1-text-box">
+                <div class="title-box">
+                  <div class="sub-title">
+                    <h6>عن الشركة</h6>
+                  </div>
+                  <h2>
+                    مهمتنا هي إعادة
+                    <br />
+                    تسويق العقارات لصالح العميل.
+                  </h2>
+                </div>
+                <div class="inner-text">
+                  <p>
+                    يجب أن يشرب كارتون الأطفال من السلة الآن ، لكن البوابة تريد
+                    بيئي حتى لو لم تكن الشاحنات ، نتيجة الترويج للفيوجيات. كرة
+                    القدم هي بوابة للتمويل.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--End About Style1 Area-->
+
+      <!--Start properties Style1 Area-->
+      <section class="properties-style1-area">
+        <div class="auto-container">
+          <div class="properties-style1-title-box">
+            <div class="sec-title">
+              <div class="sub-title">
+                <h6>أحدث الإعلانات</h6>
+              </div>
+              <h3>الوحدات العقارية</h3>
+            </div>
+            <div class="right">
+              <span class="icon-home me-2"></span>
+              <p>1,500+ وحدة متاحة للبيع والايجار</p>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <!--Start Single Properties Box Colum-->
+            <div class="single-properties-box-colum">
+              <div class="single-properties-box-style1">
+                <div class="img-holder">
+                  <img
+                    src="assets/images/properties/properties-v1-1.jpg"
+                    alt=""
+                  />
+                  <div class="overlay-content">
+                    <ul>
+                      <li>مميز</li>
+                      <li class="bg1">للبيع</li>
+                    </ul>
+                  </div>
+                  <div class="icon">
+                    <span class="icon-heart"></span>
+                  </div>
+                </div>
+                <div class="text-holder">
+                  <div class="top">
+                    <div class="dot"></div>
+                    <p>المعلن <a href="#">المؤشر للتطوير العقارى</a></p>
+                  </div>
+                  <h3>
+                    <a href="property-details.html"
+                      >فيلا 350 متر مربع فى التجمع الخامس</a
+                    >
+                  </h3>
+                  <p>التجمع الخامس ، القاهرة الجديدة</p>
+                  <div class="rating-value-box">
+                    <div class="rating-box">
+                      <ul>
+                        <li>
+                          <span class="icon-star"></span>
+                        </li>
+                        <li>
+                          <span class="icon-star"></span>
+                        </li>
+                        <li>
+                          <span class="icon-star"></span>
+                        </li>
+                        <li>
+                          <span class="icon-star"></span>
+                        </li>
+                        <li>
+                          <span class="icon-star-1"></span>
+                        </li>
+                      </ul>
+                      <span class="text">(5.4)</span>
+                    </div>
+                    <div class="value-box">
+                      <h4>$59.60</h4>
+                    </div>
+                  </div>
+                  <div class="info-box">
+                    <ul>
+                      <li><span class="icon-bed"></span>4 غرف</li>
+                      <li><span class="icon-bath-tub"></span>2 حمام</li>
+                      <li><span class="icon-selection"></span>250 متر 2</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--End Single Properties Box Colum-->
+
+            <!--Start Single Properties Box Colum-->
+            <div class="single-properties-box-colum">
+              <div class="single-properties-box-style1">
+                <div class="img-holder">
+                  <img
+                    src="assets/images/properties/properties-v1-2.jpg"
+                    alt=""
+                  />
+                  <div class="overlay-content">
+                    <ul>
+                      <li>مميز</li>
+                      <li class="bg1">للبيع</li>
+                    </ul>
+                  </div>
+                  <div class="icon">
+                    <span class="icon-heart"></span>
+                  </div>
+                </div>
+                <div class="text-holder">
+                  <div class="top">
+                    <div class="dot"></div>
+                    <p>المعلن <a href="#">المؤشر للتطوير العقارى</a></p>
+                  </div>
+                  <h3>
+                    <a href="property-details.html"
+                      >فيلا 350 متر مربع فى التجمع الخامس</a
+                    >
+                  </h3>
+                  <p>التجمع الخامس ، القاهرة الجديدة</p>
+                  <div class="rating-value-box">
+                    <div class="rating-box">
+                      <ul>
+                        <li>
+                          <span class="icon-star"></span>
+                        </li>
+                        <li>
+                          <span class="icon-star"></span>
+                        </li>
+                        <li>
+                          <span class="icon-star"></span>
+                        </li>
+                        <li>
+                          <span class="icon-star"></span>
+                        </li>
+                        <li>
+                          <span class="icon-star-1"></span>
+                        </li>
+                      </ul>
+                      <span class="text">(5.4)</span>
+                    </div>
+                    <div class="value-box">
+                      <h4>$59.60</h4>
+                    </div>
+                  </div>
+                  <div class="info-box">
+                    <ul>
+                      <li><span class="icon-bed"></span>4 غرف</li>
+                      <li><span class="icon-bath-tub"></span>2 حمام</li>
+                      <li><span class="icon-selection"></span>250 متر 2</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--End Single Properties Box Colum-->
+            <!--Start Single Properties Box Colum-->
+            <div class="single-properties-box-colum">
+              <div class="single-properties-box-style1">
+                <div class="img-holder">
+                  <img
+                    src="assets/images/properties/properties-v1-3.jpg"
+                    alt=""
+                  />
+                  <div class="overlay-content">
+                    <ul>
+                      <li>مميز</li>
+                      <li class="bg1">للبيع</li>
+                    </ul>
+                  </div>
+                  <div class="icon">
+                    <span class="icon-heart"></span>
+                  </div>
+                </div>
+                <div class="text-holder">
+                  <div class="top">
+                    <div class="dot"></div>
+                    <p>المعلن <a href="#">المؤشر للتطوير العقارى</a></p>
+                  </div>
+                  <h3>
+                    <a href="property-details.html"
+                      >فيلا 350 متر مربع فى التجمع الخامس</a
+                    >
+                  </h3>
+                  <p>التجمع الخامس ، القاهرة الجديدة</p>
+                  <div class="rating-value-box">
+                    <div class="rating-box">
+                      <ul>
+                        <li>
+                          <span class="icon-star"></span>
+                        </li>
+                        <li>
+                          <span class="icon-star"></span>
+                        </li>
+                        <li>
+                          <span class="icon-star"></span>
+                        </li>
+                        <li>
+                          <span class="icon-star"></span>
+                        </li>
+                        <li>
+                          <span class="icon-star-1"></span>
+                        </li>
+                      </ul>
+                      <span class="text">(5.4)</span>
+                    </div>
+                    <div class="value-box">
+                      <h4>$59.60</h4>
+                    </div>
+                  </div>
+                  <div class="info-box">
+                    <ul>
+                      <li><span class="icon-bed"></span>4 غرف</li>
+                      <li><span class="icon-bath-tub"></span>2 حمام</li>
+                      <li><span class="icon-selection"></span>250 متر 2</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--End Single Properties Box Colum-->
+            <!--Start Single Properties Box Colum-->
+            <div class="single-properties-box-colum">
+              <div class="single-properties-box-style1">
+                <div class="img-holder">
+                  <img
+                    src="assets/images/properties/properties-v1-4.jpg"
+                    alt=""
+                  />
+                  <div class="overlay-content">
+                    <ul>
+                      <li>مميز</li>
+                      <li class="bg1">للبيع</li>
+                    </ul>
+                  </div>
+                  <div class="icon">
+                    <span class="icon-heart"></span>
+                  </div>
+                </div>
+                <div class="text-holder">
+                  <div class="top">
+                    <div class="dot"></div>
+                    <p>المعلن <a href="#">المؤشر للتطوير العقارى</a></p>
+                  </div>
+                  <h3>
+                    <a href="property-details.html"
+                      >فيلا 350 متر مربع فى التجمع الخامس</a
+                    >
+                  </h3>
+                  <p>التجمع الخامس ، القاهرة الجديدة</p>
+                  <div class="rating-value-box">
+                    <div class="rating-box">
+                      <ul>
+                        <li>
+                          <span class="icon-star"></span>
+                        </li>
+                        <li>
+                          <span class="icon-star"></span>
+                        </li>
+                        <li>
+                          <span class="icon-star"></span>
+                        </li>
+                        <li>
+                          <span class="icon-star"></span>
+                        </li>
+                        <li>
+                          <span class="icon-star-1"></span>
+                        </li>
+                      </ul>
+                      <span class="text">(5.4)</span>
+                    </div>
+                    <div class="value-box">
+                      <h4>$59.60</h4>
+                    </div>
+                  </div>
+                  <div class="info-box">
+                    <ul>
+                      <li><span class="icon-bed"></span>4 غرف</li>
+                      <li><span class="icon-bath-tub"></span>2 حمام</li>
+                      <li><span class="icon-selection"></span>250 متر 2</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--End Single Properties Box Colum-->
+            <!--Start Single Properties Box Colum-->
+            <div class="single-properties-box-colum">
+              <div class="single-properties-box-style1">
+                <div class="img-holder">
+                  <img
+                    src="assets/images/properties/properties-v1-5.jpg"
+                    alt=""
+                  />
+                  <div class="overlay-content">
+                    <ul>
+                      <li>مميز</li>
+                      <li class="bg1">للبيع</li>
+                    </ul>
+                  </div>
+                  <div class="icon">
+                    <span class="icon-heart"></span>
+                  </div>
+                </div>
+                <div class="text-holder">
+                  <div class="top">
+                    <div class="dot"></div>
+                    <p>المعلن <a href="#">المؤشر للتطوير العقارى</a></p>
+                  </div>
+                  <h3>
+                    <a href="property-details.html"
+                      >فيلا 350 متر مربع فى التجمع الخامس</a
+                    >
+                  </h3>
+                  <p>التجمع الخامس ، القاهرة الجديدة</p>
+                  <div class="rating-value-box">
+                    <div class="rating-box">
+                      <ul>
+                        <li>
+                          <span class="icon-star"></span>
+                        </li>
+                        <li>
+                          <span class="icon-star"></span>
+                        </li>
+                        <li>
+                          <span class="icon-star"></span>
+                        </li>
+                        <li>
+                          <span class="icon-star"></span>
+                        </li>
+                        <li>
+                          <span class="icon-star-1"></span>
+                        </li>
+                      </ul>
+                      <span class="text">(5.4)</span>
+                    </div>
+                    <div class="value-box">
+                      <h4>$59.60</h4>
+                    </div>
+                  </div>
+                  <div class="info-box">
+                    <ul>
+                      <li><span class="icon-bed"></span>4 غرف</li>
+                      <li><span class="icon-bath-tub"></span>2 حمام</li>
+                      <li><span class="icon-selection"></span>250 متر 2</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--End Single Properties Box Colum-->
+          </div>
+        </div>
+      </section>
+      <!--End properties Style1 Area-->
+
+      <!--Start Explore Our Properties Area-->
+      <section class="explore-our-properties-area">
+        <div class="container">
+          <div class="sec-title text-center">
+            <div class="sub-title">
+              <h6>ابحث عن عقار</h6>
+            </div>
+            <h3>استكشف المدن المتاحة</h3>
+          </div>
+          <div class="row">
+            <!--Start Single Explore Properties Box-->
+            <div class="col-xl-4 col-lg-4">
+              <div class="single-explore-properties-box">
+                <div class="img-holder">
+                  <img
+                    src="assets/images/resources/explore-properties-1.jpg"
+                    alt=""
+                  />
+                  <div class="icon-box">
+                    <span class="icon-heart"></span>
+                  </div>
+                </div>
+                <div class="text-holder">
+                  <div class="inner-title">
+                    <p>1,000 وحدة</p>
+                    <h3><a href="#">التجمع الخامس ، القاهرة</a></h3>
+                  </div>
+                  <div class="btn-box">
+                    <a
+                      href="#"
+                      class="d-flex align-items-center justify-content-center"
+                    >
+                      <i class="fa fa-arrow-left"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--End Single Explore Properties Box-->
+
+            <!--Start Single Explore Properties Box-->
+            <div class="col-xl-4 col-lg-4">
+              <div class="single-explore-properties-box">
+                <div class="img-holder">
+                  <img
+                    src="assets/images/resources/explore-properties-2.jpg"
+                    alt=""
+                  />
+                  <div class="icon-box">
+                    <span class="icon-heart"></span>
+                  </div>
+                </div>
+                <div class="text-holder">
+                  <div class="inner-title">
+                    <p>1,000 وحدة</p>
+                    <h3><a href="#">التجمع الخامس ، القاهرة</a></h3>
+                  </div>
+                  <div class="btn-box">
+                    <a
+                      href="#"
+                      class="d-flex align-items-center justify-content-center"
+                    >
+                      <i class="fa fa-arrow-left"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--End Single Explore Properties Box-->
+
+            <!--Start Single Explore Properties Box-->
+            <div class="col-xl-4 col-lg-4">
+              <div class="single-explore-properties-box">
+                <div class="img-holder">
+                  <img
+                    src="assets/images/resources/explore-properties-3.jpg"
+                    alt=""
+                  />
+                  <div class="icon-box">
+                    <span class="icon-heart"></span>
+                  </div>
+                </div>
+                <div class="text-holder">
+                  <div class="inner-title">
+                    <p>1,000 وحدة</p>
+                    <h3><a href="#">التجمع الخامس ، القاهرة</a></h3>
+                  </div>
+                  <div class="btn-box">
+                    <a
+                      href="#"
+                      class="d-flex align-items-center justify-content-center"
+                    >
+                      <i class="fa fa-arrow-left"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--End Single Explore Properties Box-->
+          </div>
+        </div>
+      </section>
+      <!--End Explore Our Properties Area-->
+
+      <!--Start Choose Style1 Area-->
+      <section class="choose-style1-area">
+        <div class="container">
+          <div class="sec-title text-center">
+            <div class="sub-title">
+              <h6>مميزات سوق</h6>
+            </div>
+            <h3>لماذا تختار <span class="fw-bold">سووق</span> ؟</h3>
+          </div>
+          <div class="row">
+            <!--Start Single Choose Style1 Box-->
+            <div class="col-xl-3 col-lg-6 col-md-6">
+              <div class="single-choose-style1-box text-center">
+                <div class="icon">
+                  <span class="icon-trust"></span>
+                </div>
+                <div class="text">
+                  <h3><a href="#">موثوقة لدى آلاف العملاء</a></h3>
+                  <p>
+                    تمتلك سووق سنوات عديدة من الخبرة فى مجال الخدمات العقارية
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!--End Single Choose Style1 Box-->
+
+            <!--Start Single Choose Style1 Box-->
+            <div class="col-xl-3 col-lg-6 col-md-6">
+              <div class="single-choose-style1-box text-center">
+                <div class="icon">
+                  <span class="icon-house"></span>
+                </div>
+                <div class="text">
+                  <h3><a href="#">تقييم موثوق للعقارات</a></h3>
+                  <p>
+                    تمنح سووق عملية تقييم واضحة للعملاء مما يصب فى مصلحة العملاء
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!--End Single Choose Style1 Box-->
+
+            <!--Start Single Choose Style1 Box-->
+            <div class="col-xl-3 col-lg-6 col-md-6">
+              <div class="single-choose-style1-box text-center">
+                <div class="icon">
+                  <span class="icon-payment-method"></span>
+                </div>
+                <div class="text">
+                  <h3><a href="#">قاعدة كبيرة من العقارات</a></h3>
+                  <p>
+                    يتواجد ب سووق وحدات عديدة تناسب جميع العملاء فى مدن مختلفة
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!--End Single Choose Style1 Box-->
+
+            <!--Start Single Choose Style1 Box-->
+            <div class="col-xl-3 col-lg-6 col-md-6">
+              <div class="single-choose-style1-box text-center">
+                <div class="icon">
+                  <span class="icon-contract"></span>
+                </div>
+                <div class="text">
+                  <h3><a href="#">قاعدة معلومات واسعة</a></h3>
+                  <p>
+                    يتوافر معلومات واضحة عن كل عقار وطرق استفسار عديدة قبل
+                    الايجار او الشراء
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!--End Single Choose Style1 Box-->
+          </div>
+        </div>
+      </section>
+      <!--End Choose Style1 Area-->
+
+      <!--Start Testimonial Style1 Area-->
+      <section class="testimonial-style1-area pdtop120">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-12">
+              <div class="testimonial-style1__title">
+                <div class="sec-title">
+                  <div class="sub-title">
+                    <h6>آراء العملاء</h6>
+                  </div>
+                  <h3>ماذا يقول العملاء عن سووق ؟</h3>
+                </div>
+                <div class="btns-box">
+                  <a class="btn-one" href="#">
+                    <span class="txt">ابحث عن عقار</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-xl-12">
+              <div class="testimonial-style1-content">
+                <div
+                  class="owl-carousel owl-theme thm-owl__carousel testimonial-carousel-one owl-dot-style1"
+                  data-owl-options='{
+                                "rtl" : true,
+                                "loop": true,
+                                "autoplay": true,
+                                "margin": 30,
+                                "nav": false,
+                                "dots": true,
+                                "smartSpeed": 500,
+                                "autoplayTimeout": 10000,
+                                "navText": ["<span class=\"fa fa-angle-left\"></span>","<span class=\"fa fa-angle-right\"></span>"],
+                                "responsive": {
+                                        "0": {
+                                            "items": 1
+                                        },
+                                        "768": {
+                                            "items": 1
+                                        },
+                                        "992": {
+                                            "items": 2
+                                        },
+                                        "1200": {
+                                            "items": 2
+                                        }
+                                    }
+                                }'
+                >
+                  <!--Start Single Testimonial Style1-->
+                  <div class="single-testimonial-style1">
+                    <div class="border-box"></div>
+                    <div class="top-box">
+                      <div class="inner">
+                        <div class="img-box">
+                          <img
+                            src="assets/images/testimonial/testimonial-v1-1.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="rating-box">
+                          <ul>
+                            <li>
+                              <span class="icon-star"></span>
+                            </li>
+                            <li>
+                              <span class="icon-star"></span>
+                            </li>
+                            <li>
+                              <span class="icon-star"></span>
+                            </li>
+                            <li>
+                              <span class="icon-star"></span>
+                            </li>
+                            <li>
+                              <span class="icon-star-1"></span>
+                            </li>
+                          </ul>
+                          <span class="text">(5.4)</span>
+                        </div>
+                      </div>
+                      <div class="text">
+                        <p>
+                          موقع رائع وموثوث ، لقد قمت بايجار العديد من الوحدات من
+                          خلاله باسعار اقول من المعروض لدى المنافسية وجودة عالية
+                        </p>
+                      </div>
+                    </div>
+                    <div class="client-name">
+                      <h3>أحمد على محمد</h3>
+                      <span>عملية شراء موثقة</span>
+                    </div>
+                  </div>
+                  <!--End Single Testimonial Style1-->
+                  <!--Start Single Testimonial Style1-->
+                  <div class="single-testimonial-style1">
+                    <div class="border-box"></div>
+                    <div class="top-box">
+                      <div class="inner">
+                        <div class="img-box">
+                          <img
+                            src="assets/images/testimonial/testimonial-v1-1.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="rating-box">
+                          <ul>
+                            <li>
+                              <span class="icon-star"></span>
+                            </li>
+                            <li>
+                              <span class="icon-star"></span>
+                            </li>
+                            <li>
+                              <span class="icon-star"></span>
+                            </li>
+                            <li>
+                              <span class="icon-star"></span>
+                            </li>
+                            <li>
+                              <span class="icon-star-1"></span>
+                            </li>
+                          </ul>
+                          <span class="text">(5.4)</span>
+                        </div>
+                      </div>
+                      <div class="text">
+                        <p>
+                          موقع رائع وموثوث ، لقد قمت بايجار العديد من الوحدات من
+                          خلاله باسعار اقول من المعروض لدى المنافسية وجودة عالية
+                        </p>
+                      </div>
+                    </div>
+                    <div class="client-name">
+                      <h3>أحمد على محمد</h3>
+                      <span>عملية شراء موثقة</span>
+                    </div>
+                  </div>
+                  <!--End Single Testimonial Style1-->
+
+                  <!--Start Single Testimonial Style1-->
+                  <div class="single-testimonial-style1">
+                    <div class="border-box"></div>
+                    <div class="top-box">
+                      <div class="inner">
+                        <div class="img-box">
+                          <img
+                            src="assets/images/testimonial/testimonial-v1-1.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="rating-box">
+                          <ul>
+                            <li>
+                              <span class="icon-star"></span>
+                            </li>
+                            <li>
+                              <span class="icon-star"></span>
+                            </li>
+                            <li>
+                              <span class="icon-star"></span>
+                            </li>
+                            <li>
+                              <span class="icon-star"></span>
+                            </li>
+                            <li>
+                              <span class="icon-star-1"></span>
+                            </li>
+                          </ul>
+                          <span class="text">(5.4)</span>
+                        </div>
+                      </div>
+                      <div class="text">
+                        <p>
+                          موقع رائع وموثوث ، لقد قمت بايجار العديد من الوحدات من
+                          خلاله باسعار اقول من المعروض لدى المنافسية وجودة عالية
+                        </p>
+                      </div>
+                    </div>
+                    <div class="client-name">
+                      <h3>أحمد على محمد</h3>
+                      <span>عملية شراء موثقة</span>
+                    </div>
+                  </div>
+                  <!--End Single Testimonial Style1-->
+                  <!--Start Single Testimonial Style1-->
+                  <div class="single-testimonial-style1">
+                    <div class="border-box"></div>
+                    <div class="top-box">
+                      <div class="inner">
+                        <div class="img-box">
+                          <img
+                            src="assets/images/testimonial/testimonial-v1-1.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="rating-box">
+                          <ul>
+                            <li>
+                              <span class="icon-star"></span>
+                            </li>
+                            <li>
+                              <span class="icon-star"></span>
+                            </li>
+                            <li>
+                              <span class="icon-star"></span>
+                            </li>
+                            <li>
+                              <span class="icon-star"></span>
+                            </li>
+                            <li>
+                              <span class="icon-star-1"></span>
+                            </li>
+                          </ul>
+                          <span class="text">(5.4)</span>
+                        </div>
+                      </div>
+                      <div class="text">
+                        <p>
+                          موقع رائع وموثوث ، لقد قمت بايجار العديد من الوحدات من
+                          خلاله باسعار اقول من المعروض لدى المنافسية وجودة عالية
+                        </p>
+                      </div>
+                    </div>
+                    <div class="client-name">
+                      <h3>أحمد على محمد</h3>
+                      <span>عملية شراء موثقة</span>
+                    </div>
+                  </div>
+                  <!--End Single Testimonial Style1-->
+
+                  <!--Start Single Testimonial Style1-->
+                  <div class="single-testimonial-style1">
+                    <div class="border-box"></div>
+                    <div class="top-box">
+                      <div class="inner">
+                        <div class="img-box">
+                          <img
+                            src="assets/images/testimonial/testimonial-v1-1.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="rating-box">
+                          <ul>
+                            <li>
+                              <span class="icon-star"></span>
+                            </li>
+                            <li>
+                              <span class="icon-star"></span>
+                            </li>
+                            <li>
+                              <span class="icon-star"></span>
+                            </li>
+                            <li>
+                              <span class="icon-star"></span>
+                            </li>
+                            <li>
+                              <span class="icon-star-1"></span>
+                            </li>
+                          </ul>
+                          <span class="text">(5.4)</span>
+                        </div>
+                      </div>
+                      <div class="text">
+                        <p>
+                          موقع رائع وموثوث ، لقد قمت بايجار العديد من الوحدات من
+                          خلاله باسعار اقول من المعروض لدى المنافسية وجودة عالية
+                        </p>
+                      </div>
+                    </div>
+                    <div class="client-name">
+                      <h3>أحمد على محمد</h3>
+                      <span>عملية شراء موثقة</span>
+                    </div>
+                  </div>
+                  <!--End Single Testimonial Style1-->
+                  <!--Start Single Testimonial Style1-->
+                  <div class="single-testimonial-style1">
+                    <div class="border-box"></div>
+                    <div class="top-box">
+                      <div class="inner">
+                        <div class="img-box">
+                          <img
+                            src="assets/images/testimonial/testimonial-v1-1.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="rating-box">
+                          <ul>
+                            <li>
+                              <span class="icon-star"></span>
+                            </li>
+                            <li>
+                              <span class="icon-star"></span>
+                            </li>
+                            <li>
+                              <span class="icon-star"></span>
+                            </li>
+                            <li>
+                              <span class="icon-star"></span>
+                            </li>
+                            <li>
+                              <span class="icon-star-1"></span>
+                            </li>
+                          </ul>
+                          <span class="text">(5.4)</span>
+                        </div>
+                      </div>
+                      <div class="text">
+                        <p>
+                          موقع رائع وموثوث ، لقد قمت بايجار العديد من الوحدات من
+                          خلاله باسعار اقول من المعروض لدى المنافسية وجودة عالية
+                        </p>
+                      </div>
+                    </div>
+                    <div class="client-name">
+                      <h3>أحمد على محمد</h3>
+                      <span>عملية شراء موثقة</span>
+                    </div>
+                  </div>
+                  <!--End Single Testimonial Style1-->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--End Testimonial Style1 Area-->
+
+      <!--Start Features Style3 Area-->
+      <section class="video-gallery-style1-area">
+        <div
+          class="video-gallery-style1__bg"
+          style="
+            background-image: url(assets/images/backgrounds/video-gallery-style1-bg.jpg);
+          "
+        ></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-12">
+              <div class="video-gallery-style1">
+                <div
+                  class="icon wow zoomIn animated"
+                  data-wow-delay="300ms"
+                  data-wow-duration="1500ms"
+                >
+                  <a
+                    class="video-popup"
+                    title="Video Gallery"
+                    href="https://www.youtube.com/watch?v=G88Eo46nPuA"
+                  >
+                    <span class="icon-play-buttton"></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--End Features Style3 Area-->
+
+      <!--Start Blog Style1 Area-->
+      <section class="blog-style1-area">
+        <div class="container">
+          <div class="sec-title text-center">
+            <div class="sub-title">
+              <h6>المقالات و الاخبار</h6>
+            </div>
+            <h3>تعرف على احدث المقالات و الاخبار</h3>
+          </div>
+
+          <div class="row text-right-rtl">
+            <!--Start Single blog Style1-->
+            <div class="col-xl-4 col-lg-4">
+              <div
+                class="single-blog-style1 wow fadeInUp"
+                data-wow-delay="00ms"
+                data-wow-duration="1500ms"
+              >
+                <div class="img-holder">
+                  <div class="inner">
+                    <img
+                      src="assets/images/blog/blog-v1-1.jpg"
+                      alt="سووق للخدمات العقارية"
+                    />
+                  </div>
+                </div>
+                <div class="text-holder">
+                  <div class="top">
+                    <ul class="meta-info">
+                      <li>
+                        <span class="icon-calendar"></span>
+                        <a href="#">مايو 3, 2022</a>
+                      </li>
+                    </ul>
+                    <h3 class="blog-title">
+                      <a href="blog-single.html"> معرض سووق للعقارات 2023 </a>
+                    </h3>
+                  </div>
+                  <div class="btn-box">
+                    <a href="blog-single.html">
+                      اقرأ المزيد
+                      <i class="fa fa-angle-left ms-2"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--End Single blog Style1-->
+            <!--Start Single blog Style1-->
+            <div class="col-xl-4 col-lg-4">
+              <div
+                class="single-blog-style1 wow fadeInUp"
+                data-wow-delay="200ms"
+                data-wow-duration="1500ms"
+              >
+                <div class="img-holder">
+                  <div class="inner">
+                    <img src="assets/images/blog/blog-v1-2.jpg" alt="" />
+                  </div>
+                </div>
+                <div class="text-holder">
+                  <div class="top">
+                    <ul class="meta-info">
+                      <li>
+                        <span class="icon-calendar"></span>
+                        <a href="#">مايو 3, 2022</a>
+                      </li>
+                    </ul>
+                    <h3 class="blog-title">
+                      <a href="blog-single.html">
+                        كيف ستعمل تقنيات الخطوط الجديدة على تحسين الويب
+                      </a>
+                    </h3>
+                  </div>
+                  <div class="btn-box">
+                    <a href="blog-single.html">
+                      اقرأ المزيد
+                      <i class="fa fa-angle-left ms-2"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--End Single blog Style1-->
+            <!--Start Single blog Style1-->
+            <div class="col-xl-4 col-lg-4">
+              <div
+                class="single-blog-style1 wow fadeInUp"
+                data-wow-delay="200ms"
+                data-wow-duration="1500ms"
+              >
+                <div class="img-holder">
+                  <div class="inner">
+                    <img src="assets/images/blog/blog-v1-2.jpg" alt="" />
+                  </div>
+                </div>
+                <div class="text-holder">
+                  <div class="top">
+                    <ul class="meta-info">
+                      <li>
+                        <span class="icon-calendar"></span>
+                        <a href="#">مايو 3, 2022</a>
+                      </li>
+                    </ul>
+                    <h3 class="blog-title">
+                      <a href="blog-single.html">
+                        كيف ستعمل تقنيات الخطوط الجديدة على تحسين الويب
+                      </a>
+                    </h3>
+                  </div>
+                  <div class="btn-box">
+                    <a href="blog-single.html">
+                      اقرأ المزيد
+                      <i class="fa fa-angle-left ms-2"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--End Single blog Style1-->
+          </div>
+        </div>
+      </section>
+      <!--End Blog Style1 Area-->
+
+      <!--Start Partner Area-->
+      <section class="partner-area">
+        <div class="container">
+          <div class="brand-content">
+            <div
+              class="owl-carousel owl-theme thm-owl__carousel partner-carousel"
+              data-owl-options='{
+                        "rtl": true,
+                        "loop": false,
+                        "autoplay": true,
+                        "margin": 30,
+                        "nav": false,
+                        "dots": false,
+                        "smartSpeed": 500,
+                        "autoplayTimeout": 10000,
+                        "navText": ["<span class=\"fa fa-angle-left\"></span>","<span class=\"fa fa-angle-right\"></span>"],
+                        "responsive": {
+                                "0": {
+                                    "items": 1
+                                },
+                                "768": {
+                                    "items": 3
+                                },
+                                "992": {
+                                    "items": 4
+                                },
+                                "1200": {
+                                    "items": 5
+                                }
+                            }
+                        }'
+            >
+              <!--Start Single Partner Logo Box-->
+              <div class="single-partner-logo-box">
+                <a href="#"
+                  ><img
+                    src="assets/images/brand/brand-1-1.png"
+                    alt="Awesome Image"
+                /></a>
+              </div>
+              <!--End Single Partner Logo Box-->
+              <!--Start Single Partner Logo Box-->
+              <div class="single-partner-logo-box">
+                <a href="#"
+                  ><img
+                    src="assets/images/brand/brand-1-2.png"
+                    alt="Awesome Image"
+                /></a>
+              </div>
+              <!--End Single Partner Logo Box-->
+              <!--Start Single Partner Logo Box-->
+              <div class="single-partner-logo-box">
+                <a href="#"
+                  ><img
+                    src="assets/images/brand/brand-1-3.png"
+                    alt="Awesome Image"
+                /></a>
+              </div>
+              <!--End Single Partner Logo Box-->
+              <!--Start Single Partner Logo Box-->
+              <div class="single-partner-logo-box">
+                <a href="#"
+                  ><img
+                    src="assets/images/brand/brand-1-4.png"
+                    alt="Awesome Image"
+                /></a>
+              </div>
+              <!--End Single Partner Logo Box-->
+              <!--Start Single Partner Logo Box-->
+              <div class="single-partner-logo-box">
+                <a href="#"
+                  ><img
+                    src="assets/images/brand/brand-1-5.png"
+                    alt="Awesome Image"
+                /></a>
+              </div>
+              <!--End Single Partner Logo Box-->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--End Partner Area-->
+
+      <!--Start slogan area-->
+      <section class="slogan-area">
+        <div class="container">
+          <div class="slogan-content-box">
+            <div class="inner-title">
+              <h2>للمزيد من المعلومات !</h2>
+            </div>
+            <div class="get-app-box">
+              <ul>
+                <li>
+                  <a href="#">
+                    <div class="icon">
+                      <i class="fa fa-phone-square fa-2x text-white"></i>
+                    </div>
+                    <div class="text">
+                      <h4 class="mb-0">اتصل بنا</h4>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div class="icon">
+                      <i class="fab fa-whatsapp-square fa-2x text-white"></i>
+                    </div>
+                    <div class="text">
+                      <h4 class="mb-0">تواصل واتساب</h4>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--End slogan area-->
+
+      <!--Start footer area -->
+      <footer class="footer-area">
+        <!--Start Footer-->
+        <div class="footer">
+          <div class="container">
+            <div class="row text-right-rtl">
+              <!--Start single footer widget-->
+              <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                <div class="single-footer-widget marbtm50">
+                  <div class="our-company-info">
+                    <div class="footer-logo-style1">
+                      <a href="#">
+                        <img
+                          src="assets/images/resources/logo-trans-2.png"
+                          alt="سووق للخدمات العقارية"
+                          width="120"
+                        />
+                      </a>
+                    </div>
+                    <div class="text-box">
+                      <p>
+                        كما أنه يستثمر في لاسينيا ما لم يكن بحاجة إلى المزيد.
+                        كانت إينيس وموليس سابينس حاملتين قبل تفشي المرض.
+                      </p>
+                    </div>
+                    <div class="social-links">
+                      <a href="#" class="me-2">
+                        <i class="fab fa-facebook-square fa-2x"></i>
+                      </a>
+                      <a href="#" class="me-2">
+                        <i class="fab fa-twitter-square fa-2x"></i>
+                      </a>
+                      <a href="#">
+                        <i class="fab fa-instagram-square fa-2x"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--End single footer widget-->
+
+              <!--Start single footer widget-->
+              <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                <div
+                  class="single-footer-widget single-footer-widget--link-box marbtm50"
+                >
+                  <div class="title">
+                    <h3>روابط</h3>
+                  </div>
+                  <div class="footer-widget-links">
+                    <ul>
+                      <li><a href="#">ابحث عن عقار</a></li>
+                      <li>
+                        <a href="#">احسب سعر وحدتك</a>
+                      </li>
+                      <li><a href="#">اعلن عن وحداتك</a></li>
+                      <li><a href="#">الوسطاء المميزون</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!--End single footer widget-->
+
+              <!--Start single footer widget-->
+              <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                <div
+                  class="single-footer-widget single-footer-widget--link-box"
+                >
+                  <div class="title">
+                    <h3>عن الشركة</h3>
+                  </div>
+                  <div class="footer-widget-links">
+                    <ul>
+                      <li><a href="#">عن الشركة</a></li>
+                      <li><a href="#">المقالات</a></li>
+                      <li><a href="#">الأحداث و الأخبار</a></li>
+                      <li><a href="#">انضم الينا</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!--End single footer widget-->
+
+              <!--Start single footer widget-->
+              <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                <div
+                  class="single-footer-widget footer-widget-contact-info-colum pdtop50"
+                >
+                  <div class="title">
+                    <h3>تواصل معنا</h3>
+                  </div>
+                  <div class="footer-widget-contact-info">
+                    <ul>
+                      <li>
+                        البريد الإلكترونى :
+                        <a href="mailto:yourmail@email.com"
+                          >souqproperty@info.com</a
+                        >
+                      </li>
+                      <li>
+                        رقم الهاتف :
+                        <a href="tel:123456789" dir="ltr"
+                          >+00 111 222 333 444</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!--End single footer widget-->
+            </div>
+          </div>
+        </div>
+        <!--End Footer-->
+
+        <div class="footer-bottom">
+          <div class="container">
+            <div class="bottom-inner">
+              <div class="copyright">
+                <p>
+                  جميع حقوق النشر محفوظة &copy;
+                  <a href="index.html">سووق.</a>
+                  2023
+                </p>
+              </div>
+              <div class="footer-menu">
+                <ul>
+                  <li><a href="#">سياسة الخصوصية</a></li>
+                  <li><a href="#">الشروط و الأحكام</a></li>
+                  <li><a href="#">الدعم</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!--End footer area-->
+    </div>
+    <!-- /.page-wrapper -->
+
+    <div class="mobile-nav__wrapper">
+      <div class="mobile-nav__overlay mobile-nav__toggler"></div>
+      <div class="mobile-nav__content">
+        <span class="mobile-nav__close mobile-nav__toggler">
+          <i class="icon-plus-sign"></i>
+        </span>
+        <div class="logo-box">
+          <a href="index.html" aria-label="logo image">
+            <img
+              class="brightness-100"
+              src="assets/images/resources/logo-trans-2.png"
+              width="120"
+              height="50"
+              alt="سووق للخدمات العقارية"
+            />
+          </a>
+        </div>
+        <div class="mobile-nav__container"></div>
+        <ul class="mobile-nav__contact list-unstyled">
+          <li>
+            <i class="fa fa-envelope"></i>
+            <a href="mailto:info@example.com">souq@example.com</a>
+          </li>
+          <li>
+            <i class="fa fa-phone-alt"></i>
+            <a href="tel:123456789">444 000 777 66</a>
+          </li>
+        </ul>
+        <div class="mobile-nav__social">
+          <a href="#" class="fab fa-twitter"></a>
+          <a href="#" class="fab fa-facebook-square"></a>
+          <a href="#" class="fab fa-pinterest-p"></a>
+          <a href="#" class="fab fa-instagram"></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="search-popup">
+      <div class="search-popup__overlay search-toggler"></div>
+      <div class="search-popup__content">
+        <form action="#">
+          <label for="search" class="sr-only">ابحث هنا</label>
+          <input type="text" id="search" placeholder="ابحث هنا" />
+          <button type="submit" aria-label="search submit" class="thm-btn">
+            <i class="icon-magnifying-glass"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <a href="#" data-target="html" class="scroll-to-target scroll-to-top">
+      <i class="icon-up-arrow-1"></i>
+    </a>
+
+    <script src="assets/vendors/jquery/jquery-3.6.0.min.js"></script>
+    <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendors/bootstrap-select/js/bootstrap-select.min.js"></script>
+    <script src="assets/vendors/bxslider/jquery.bxslider.min.js"></script>
+    <script src="assets/vendors/circleType/jquery.circleType.js"></script>
+    <script src="assets/vendors/circleType/jquery.lettering.min.js"></script>
+    <script src="assets/vendors/isotope/isotope.js"></script>
+    <script src="assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
+    <script src="assets/vendors/jquery-appear/jquery.appear.min.js"></script>
+    <script src="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="assets/vendors/jquery-migrate/jquery-migrate.min.js"></script>
+    <script src="assets/vendors/jquery-ui/jquery-ui.js"></script>
+    <script src="assets/vendors/jquery-validate/jquery.validate.min.js"></script>
+    <script src="assets/vendors/nice-select/jquery.nice-select.min.js"></script>
+    <script src="assets/vendors/nouislider/nouislider.min.js"></script>
+    <script src="assets/vendors/odometer/odometer.min.js"></script>
+    <script src="assets/vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="assets/vendors/parallax/parallax.min.js"></script>
+    <script src="assets/vendors/swiper/swiper.min.js"></script>
+    <script src="assets/vendors/timepicker/timePicker.js"></script>
+    <script src="assets/vendors/tiny-slider/tiny-slider.min.js"></script>
+    <script src="assets/vendors/typed-2.0.11/typed-2.0.11.js"></script>
+    <script src="assets/vendors/vegas/vegas.min.js"></script>
+    <script src="assets/vendors/wnumb/wNumb.min.js"></script>
+    <script src="assets/vendors/wow/wow.js"></script>
+    <script src="assets/vendors/color-switch/color-switcher.min.js"></script>
+    <!-- Template js -->
+    <script src="assets/js/custom.js"></script>
+  </body>
 </html>
