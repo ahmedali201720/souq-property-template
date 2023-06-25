@@ -4999,7 +4999,7 @@ animation: spinner 1s infinite linear;
   width: 100%;
   height: 45px;
   background-color: #ffffff;
-  border: 1px solid #f6f6f6;
+  border: 1px solid #e0e0e0;
   color: var(--thm-gray);
   font-size: 14px;
   font-weight: 400;
@@ -5014,7 +5014,7 @@ animation: spinner 1s infinite linear;
   display: block;
   background-color: #fff;
   border-radius: 4px;
-  border: solid 1px #f6f6f6;
+  border: solid 1px #e0e0e0;
   width: 100%;
   height: 45px;
   font-size: 14px;
@@ -5034,7 +5034,8 @@ animation: spinner 1s infinite linear;
   color: #cecece;
   font-size: 9px;
   top: 0px;
-  right: 22px;
+  left: 22px;
+  right: auto;
   margin: 0px;
   font-weight: 400;
   border: none !important;
@@ -5268,7 +5269,7 @@ animation: spinner 1s infinite linear;
 .short-box .inner-title {
   position: relative;
   display: block;
-  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .short-box .inner-title h6 {
@@ -5290,7 +5291,7 @@ animation: spinner 1s infinite linear;
   width: 100%;
   height: 35px;
   border-radius: 0px;
-  border: solid 1px #f6f6f6;
+  border: solid 1px #e0e0e0;
   font-size: 14px;
   font-weight: 400;
   line-height: 33px;
@@ -5307,13 +5308,14 @@ animation: spinner 1s infinite linear;
   color: #cecece;
   font-size: 9px;
   top: 0px;
-  right: 18px;
+  left: 18px;
+  right: auto;
   margin: 0px;
   font-weight: 400;
   border: none !important;
   transform: rotate(0deg) !important;
   background: #fff;
-  padding-left: 10px;
+  padding-right: 6px;
   height: 33px;
 }
 
