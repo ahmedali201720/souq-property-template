@@ -13,6 +13,40 @@
   --secondary-color: #3d7d98;
 }
 
+.btn-main {
+  background-color: #0066fe;
+  color: #ffffff;
+  transition: all 0.4s;
+  padding: 10px 15px;
+  text-align: center;
+  border-radius: 5px;
+  outline: none;
+  box-shadow: none;
+}
+
+.btn-main:hover {
+  background-color: #3686fd;
+  padding: 12px 25px;
+  color: #ffffff;
+}
+
+.btn-main-2 {
+  background-color: #3d7d98;
+  color: #ffffff;
+  transition: all 0.4s;
+  padding: 10px 15px;
+  text-align: center;
+  border-radius: 5px;
+  outline: none;
+  box-shadow: none;
+}
+
+.btn-main-2:hover {
+  background-color: #50a4c8;
+  padding: 12px 25px;
+  color: #ffffff;
+}
+
 .auto-container {
   position: static;
   max-width: 1200px;
@@ -1192,6 +1226,9 @@ animation: spinner 1s infinite linear;
 
 .single-properties-box-style1 .img-holder img {
   width: 100%;
+  height: 250px;
+  -o-object-fit: cover;
+  object-fit: cover;
   transition: all 0.5s ease;
 }
 
@@ -1579,7 +1616,7 @@ animation: spinner 1s infinite linear;
   display: block;
   width: 50px;
   height: 50px;
-  background: #f9fafe;
+  background: #e1e7ff;
   border-radius: 50%;
   text-align: center;
   z-index: 1;
@@ -2453,7 +2490,7 @@ animation: spinner 1s infinite linear;
   position: relative;
   display: block;
   float: right;
-  width: 20%;
+  width: 25%;
   padding: 0 10px;
 }
 
@@ -2463,7 +2500,7 @@ animation: spinner 1s infinite linear;
   height: 45px;
   line-height: 42px;
   background: #ffffff;
-  border: 1px solid #f6f6f6 !important;
+  border: 1px solid #d7d7d7 !important;
   font-family: var(--thm-font);
   border-radius: 4px;
   color: var(--thm-gray);
@@ -2484,7 +2521,7 @@ animation: spinner 1s infinite linear;
   width: 100%;
   height: 45px;
   background-color: #ffffff;
-  border: 1px solid #f6f6f6;
+  border: 1px solid #d7d7d7;
   color: var(--thm-gray);
   font-size: 14px;
   font-weight: 400;
@@ -3623,7 +3660,8 @@ animation: spinner 1s infinite linear;
   color: #cecece;
   font-size: 9px;
   top: 0px;
-  right: 22px;
+  left: 22px;
+  right: auto;
   margin: 0px;
   font-weight: 400;
   border: none !important;
@@ -4020,7 +4058,7 @@ animation: spinner 1s infinite linear;
   font-weight: 400;
   padding-top: 6px;
   padding-left: 15px;
-  padding-right: 15px;
+  padding-right: 136px;
   border-radius: 4px;
   transition: all 500ms ease 0s;
 }
@@ -6905,3 +6943,30 @@ animation: spinner 1s infinite linear;
 /*--------------------------------------------------------------
 # End Css 
 --------------------------------------------------------------*/
+
+.fixed-icons {
+  position: fixed;
+  bottom: 25px;
+  left: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.fixed-icons a:not(:first-child) {
+  margin-top: 10px;
+}
+
+.fixed-icons img {
+  width: 55px;
+  height: 55px;
+}
+
+.sticky-sidebar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+}

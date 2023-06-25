@@ -1086,7 +1086,7 @@
   font-weight: 600;
   border-radius: 4px;
   font-family: var(--thm-font-2);
-  border: 3px solid #f6f6f6;
+  border: 3px solid #0166fe;
   transition: all 200ms linear;
   transition-delay: 0.1s;
 }
@@ -1371,4 +1371,12 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+}
+
+.bg-main {
+  background-color: #0166fe !important;
+}
+
+.text-main {
+  color: #0166fe !important;
 }
